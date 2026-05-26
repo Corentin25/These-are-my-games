@@ -103,6 +103,11 @@ export function AuthForm() {
             </div>
           )}
         </div>
+        {isLoginMode && (
+          <div className="forgotten-password">
+            Mot de passe oublié ?
+          </div>
+        )}
         {!isLoginMode && (
           <div className="form-group">
             <label htmlFor="confirmPassword">Confirmer le mot de passe :</label>

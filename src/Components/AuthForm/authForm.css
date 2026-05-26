@@ -14,15 +14,17 @@
   background-color: var(--whitePrimary);
   box-shadow: 0px 10px 25px #00000033;
   border-radius: 30px;
+  border-bottom: #cbcbcb solid 5px;
   width: 100%;
-  padding: 3rem 2.5rem;
-  gap: 20px;
+  padding: 2rem 2.5rem;
+  /* gap: 20px; */
 }
 
 .form-group {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin: 1rem 0rem 0.5rem 0rem;
 }
 
 .form-group label {
@@ -45,6 +47,16 @@
   border-color: #3b82f6;
 }
 
+.forgotten-password {
+  color: #4d4d4d;
+  cursor: pointer;
+  font-size: 12px;
+  font-family: inherit;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 1rem;
+}
+
 .submit-btn {
   background-color: #357ced;
   color: #ffffff;
@@ -54,7 +66,7 @@
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 1rem;
   padding: 0.7rem 0rem;
   transition: background-color 0.3s;
   align-self: center;
