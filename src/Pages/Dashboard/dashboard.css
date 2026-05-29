@@ -1,0 +1,16 @@
+.addGameButton {
+  background-color: transparent;
+  color: var(--whitePrimary);
+  border: var(--whitePrimary) solid 1px;
+  border-radius: 25px;
+  box-shadow: #00000029 5px 5px 5px;
+  width: 205px;
+  font-size: 18px;
+  padding: 0.8rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.addGameButton:hover {
+  background-color: #ffffff2e;
+}
